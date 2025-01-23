@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    color: #16404D;
+}
+.top-container {
+    background-color: #66c2eb;
+    margin-bottom: 100px;
+    position: relative;
+}
+.land {
+   width: 100%;
+   height: 30%;
+
+}
+.title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+h2 {
+    color: #4DA1A9;
+    font-family: "Farsan", serif;
+    font-size: 2.5rem;
+    
+}
+.title-text {
+    font-family: "Dancing Script", serif;
+    
+    font-size: 2rem;
+    color: white;
+}
+.subtitle-text {
+    font-family: "Farsan", serif;
+    font-size: 2rem;
+    color: white;
+}
+  
+.intro-img {
+    height: 180px;
+    border: solid;
+    border-radius: 50%;
+
+}
+
+.intro-text {
+    margin: auto ;
+    width: 50%;
+}
+
+li {
+    list-style-type: none;
+}
+hr{
+    border: dotted dimgray 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+    font-size: 20px;
+}
+.skills{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    
+}
+.text {
+    text-align: justify;
+}
+h3 {
+    color: #4DA1A9;
+}
+.contactme {
+    width: 50%;
+    margin: 40px auto 60px ;
+    
+}
+.btn {
+    background-color: #4DA1A9;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: "Farsan", serif;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom,#66c2eb,#4DA1A9);
+}
+.bot-container {
+    background-color: #66c2eb;
+    padding: 50px 0 20px;
+    font-family: "Farsan", serif;
+    font-size: 18px;
+    color: white;
+}
+.about {
+    text-decoration: none;
+    color:#4DA1A9;
+   
+}
